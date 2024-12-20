@@ -10,11 +10,11 @@ const {
 global.config = {
     // Informasi bot dasar
     bot: {
-        name: "CKPTW", // Nama bot
+        name: "ITSUKI MD", // Nama bot
         prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
         phoneNumber: "", // Nomor telepon bot (opsional jika menggunakan QR code)
-        thumbnail: "https://e1.pxfuel.com/desktop-wallpaper/943/672/desktop-wallpaper-whatsapp-bot-what-is-it-and-how-to-use-messenger-chatbots-chatbot.png", // Gambar thumbnail bot
-        website: "https://chat.whatsapp.com/FxEYZl2UyzAEI2yhaH34Ye", // Website untuk WhatsApp bot
+        thumbnail: "https://pomf2.lain.la/f/20vsgz4t.jpg", // Gambar thumbnail bot
+        website: "https://www.awara.my.id/", // Website untuk WhatsApp bot
         groupJid: "" // JID untuk group bot (opsional jika tidak menggunakan requireBotGroupMembership)
     },
 
@@ -33,7 +33,7 @@ global.config = {
         restrict: quote("⛔ Perintah ini telah dibatasi karena alasan keamanan!"), // Pesan pembatasan perintah
 
         watermark: `@${pkg.name} / v${pkg.version}`, // Watermark nama dan versi pada bot
-        footer: italic("Developed by ItsReimau"), // Footer di pesan bot
+        footer: italic("under the auspices of Leviathan Corporation "), // Footer di pesan bot
         readmore: "\u200E".repeat(4001), // String read more
 
         wait: quote("🔄 Tunggu sebentar..."), // Pesan loading
@@ -43,9 +43,9 @@ global.config = {
 
     // Informasi owner bot
     owner: {
-        name: "", // Nama owner bot
-        number: "", // Nomor telepon owner bot
-        organization: "", // Nama organisasi owner bot
+        name: "radhinkun.us.kg", // Nama owner bot
+        number: "+6282177806217", // Nomor telepon owner bot
+        organization: "Leviathan Corporation", // Nama organisasi owner bot
         co: [""] // Nomor co-owner bot
     },
 
@@ -66,7 +66,7 @@ global.config = {
         selfOwner: true, // Apakah bot menjadi owner
         selfReply: true, // Apakah bot merespon pesan yang dikirim bot sendiri
         timeZone: "Asia/Jakarta", // Zona waktu bot
-        usePairingCode: false, // Menggunakan kode pairing untuk koneksi
+        usePairingCode: true, // Menggunakan kode pairing untuk koneksi
         useServer: false // Menggunakan server
     }
 };
